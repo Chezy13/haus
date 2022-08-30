@@ -1,0 +1,37 @@
+.header{
+    padding: 40px 0 0 0;
+    position: relative;
+}
+
+.header-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-nav__logo{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-nav__left,
+.header-nav__right{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.header-nav__left a,
+.header-nav__right a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
