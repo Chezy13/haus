@@ -1,0 +1,99 @@
+.ingredients-conteiner__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ingredients-conteiner__title{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+    text-align: center;
+    color: #000000;
+    max-width: 810px;
+}
+
+.ingredients-conteiner__subtitle{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 24px 0 82px 0;
+}
+
+.ingredients-conteiner__cards{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 160px;
+    margin-bottom: 60px;
+}
+
+.ingredients-conteiner__cards::before {
+    content: "";
+    position: absolute;
+    background: #BDBDBD;
+    height: 2px;
+    bottom: 0%;
+    width: 100%;
+}
+
+.ingredients-conteiner__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    max-width: 382px;
+}
+
+.ingredients-conteiner__card-title{
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000;
+}
+
+.ingredients-conteiner__card-description{
+    margin: 16px 0 45px 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+}
+
+.ingredients-conteiner__card-bslimg{
+    position: absolute;
+    top: 5%;
+    right: 0%;
+}
+
+.ingredients-conteiner__card-button{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #191919;
+    border: 1px solid #191919;
+    border-radius: 0px;
+    padding: 20px 48px;
+}
