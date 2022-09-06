@@ -1,17 +1,10 @@
-import Banner from "./AppBlocks/Banner";
-import Description from "./AppBlocks/Description";
-import Footer from "./AppBlocks/Footer";
 import "./styles/App.css";
-import "./styles/Header.css";
-import "./styles/Banner.css";
-import "./styles/Description.css";
-import "./styles/Ingredients.css";
-import "./styles/Aperetifs.css";
-import "./styles/Content.css";
-import "./styles/Footer.css";
-import Ingredients from "./AppBlocks/Ingredients";
-import Aperetifs from "./AppBlocks/Aperetifs";
-import Content from "./AppBlocks/Content";
+import Banner from "./components/Banner/Banner";
+import Description from "./components/Description/Description";
+import Ingredients from "./components/Inngredients/Ingredients";
+import Aperetifs from "./components/Aperetifs/Aperetifs";
+import Content from "./components/Content/Content";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (

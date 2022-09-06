@@ -1,7 +1,8 @@
 import React from 'react';
-import Logo1 from "../img/Logo1.png";
-import Logo2 from "../img/Logo2.png";
-import Logo3 from "../img/Logo3.png";
+import Logo1 from "../../img/Logo1.png";
+import Logo2 from "../../img/Logo2.png";
+import Logo3 from "../../img/Logo3.png";
+import './Description.css';
 
 const Description = () => {
     return (

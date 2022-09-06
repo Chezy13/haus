@@ -1,5 +1,6 @@
 import React from 'react';
-import AB from "../img/AperetifsBanner.png";
+import AB from "../../img/AperetifsBanner.png";
+import './Aperetifs.css';
 
 const Aperetifs = () => {
     return (

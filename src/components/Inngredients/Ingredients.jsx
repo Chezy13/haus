@@ -1,8 +1,9 @@
 import React from 'react';
-import Product1 from "../img/Product1.png";
-import Product2 from "../img/Product2.png";
-import Product3 from "../img/Product3.png";
-import BSL from "../img/BestSellerLogo.png";
+import Product1 from "../../img/Product1.png";
+import Product2 from "../../img/Product2.png";
+import Product3 from "../../img/Product3.png";
+import BSL from "../../img/BestSellerLogo.png";
+import './Ingredients.css';
 
 const Ingredients = () => {
     return (

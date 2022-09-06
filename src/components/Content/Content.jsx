@@ -1,5 +1,6 @@
 import React from 'react';
-import CB from "../img/ContentBanner.png";
+import CB from "../../img/ContentBanner.png";
+import './Content.css';
 
 const Content = () => {
     return (
