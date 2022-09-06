@@ -1,0 +1,31 @@
+.different-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 60px 0;
+}
+
+.different-container__text{
+    display: flex;
+    flex-direction: column;
+    max-width: 652px;
+}
+
+.different-container__text-title{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 80px;
+    color: #000000;
+}
+
+.different-container__text-description{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #000000;
+    margin: 150px 0 10px 0;
+}

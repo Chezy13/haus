@@ -1,0 +1,50 @@
+.reviews{
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.reviews-conteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 95px 0 50px 0;
+}
+
+.reviews-conteiner__content{
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reviews-conteiner__content-description{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.reviews-conteiner__content-name{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 17px 0 10px 0;
+}
+
+.reviews-conteiner__content-status{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #8A8A8A;
+}
