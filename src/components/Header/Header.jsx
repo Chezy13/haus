@@ -21,6 +21,9 @@ const Header = () => {
                     <li><a href="#">Cart</a></li>
                 </ul>
             </nav>
+            <div className='header-burger'>
+                <span className='header-burger__line'></span>
+            </div>
         </header>
     );
 };

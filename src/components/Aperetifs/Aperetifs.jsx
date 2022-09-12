@@ -4,6 +4,7 @@ import './Aperetifs.css';
 
 const Aperetifs = () => {
     return (
+        
         <section className='aperetifs'>
             <div className='wrapper'>
                 <div className='aperetifs-container'>

@@ -27,3 +27,23 @@
     color: #000000;
     max-width: 290px;
 }
+
+@media (max-width: 953px) {
+    .description-content{
+        flex-direction: column;
+        align-items: center;
+        margin: 60px 0 60px 0;
+    }
+    .description-content__block{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .description-content__block img{
+        width: 290px;
+    }
+    .description-content__block-text{
+        order: 2;
+        max-width: none;
+    }
+}
