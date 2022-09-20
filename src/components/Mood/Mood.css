@@ -86,3 +86,10 @@
     text-transform: uppercase;
     color: #FFFFFF;
 }
+
+@media (max-width: 697px) {
+    .spotify-title{
+        font-size: 36px;
+        line-height: 55px;
+    }
+}

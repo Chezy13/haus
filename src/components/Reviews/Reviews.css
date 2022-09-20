@@ -48,3 +48,14 @@
     text-transform: capitalize;
     color: #8A8A8A;
 }
+
+@media (max-width: 1017px) {
+    .reviews-conteiner{
+        flex-direction: column;
+        align-items: center;
+        gap: 35px;
+    }
+    .reviews-conteiner__content{
+        max-width: none;
+    }
+}

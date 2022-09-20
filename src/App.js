@@ -17,10 +17,10 @@ function App() {
       <Ingredients/>
       <Aperetifs/>
       <Content/>
-      {/* <Reviews/>
+      <Reviews/>
       <Different/>
       <Mood/>
-      <Footer/> */}
+      <Footer/>
     </div>  
   );
 }

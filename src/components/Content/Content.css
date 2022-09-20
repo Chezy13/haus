@@ -44,3 +44,14 @@
 .content-conteiner__left img{
     max-width: 100%;
 }
+
+@media (max-width: 1275px) {
+    .content-conteiner{
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+    .content-conteiner__right{
+        gap: 35px;
+    }
+}

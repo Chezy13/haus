@@ -29,3 +29,24 @@
     color: #000000;
     margin: 150px 0 10px 0;
 }
+
+.different-container__img img{
+    width: 100%;
+}
+
+@media (max-width: 1247px) {
+    .different-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .different-container__text-description{
+        margin: 20px 0 10px 0;
+    }
+}
+@media (max-width: 697px) {
+    .different-container__text-title{
+        font-size: 36px;
+        line-height: 55px;
+    }
+}

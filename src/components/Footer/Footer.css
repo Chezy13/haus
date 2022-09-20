@@ -109,4 +109,37 @@
     color: rgba(255, 255, 255, 0.6);
 }
 
-
+@media (max-width: 1107px) {
+    .center{
+        margin: 0;
+        margin-right: 20px;
+    }
+}
+@media (max-width: 887px) {
+    .footer-content__info{
+        display: none;
+    }
+    .footer-content__bottom{
+        padding: 40px;
+    }
+    .footer-content{
+        justify-content: center;
+    }
+}
+@media (max-width: 657px) {
+    .footer-content__bottom{
+        gap: 20px;
+    }
+}
+@media (max-width: 497px) {
+    .footer-content__bottom{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .footer-content__stayPost-input{
+        padding: 0 55px 22px 20px;
+    }
+    .footer-content__stayPost-subForm{
+        width: 300px;
+    }
+}
