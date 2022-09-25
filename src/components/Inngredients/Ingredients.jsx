@@ -7,7 +7,7 @@ import './Ingredients.css';
 
 const Ingredients = () => {
     return (
-        <section className='ingredients'>
+        <section id='shop' className='ingredients'>
             <div className='wrapper'>
                 <div className='ingredients-conteiner__text'>
                     <h2 className='ingredients-conteiner__title'>

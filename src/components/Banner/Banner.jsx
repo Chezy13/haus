@@ -17,7 +17,7 @@ const Banner = () => {
                             Light and refreshing flavors made with real, clean ingredients you can feel good about.
                             Just pour, sip, and enjoy.
                         </p>
-                        <a href="#" className='banner-content__button'>Shop ALL</a>
+                        <a href="#shop" className='banner-content__button'>Shop ALL</a>
                     </div>
                 </div>
             </div>

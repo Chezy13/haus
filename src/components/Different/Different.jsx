@@ -4,7 +4,7 @@ import D from "../../img/Different2.jpg";
 
 const Different = () => {
     return (
-        <section className='different'>
+        <section className='different' id="newsletter">
             <div className='wrapper'>
                 <div className='different-container'>
                     <div className='different-container__img'>

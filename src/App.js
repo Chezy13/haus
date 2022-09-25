@@ -11,7 +11,7 @@ import Mood from "./components/Mood/Mood";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" id="page-wrap">
       <Banner/>
       <Description/>
       <Ingredients/>

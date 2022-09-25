@@ -4,7 +4,7 @@ import './Content.css';
 
 const Content = () => {
     return (
-        <section className='content'>
+        <section className='content' id="ourstory">
             <div className='wrapper'>
                 <div className='content-conteiner'>
                     <div className='content-conteiner__right'>

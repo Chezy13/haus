@@ -38,16 +38,6 @@
 
 .header-burger{
     display: none;
-    position: relative;
-    width: 30px;
-    height: 30px;
-}
-
-.header-burger__line{
-    position: absolute;
-    height: 2px;
-    width: 100%;
-    background-color: white;
 }
 
 @media (max-width: 881px) {
