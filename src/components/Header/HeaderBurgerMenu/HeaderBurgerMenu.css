@@ -35,7 +35,8 @@
     .bm-menu-wrap {
         position: absolute !important;
         height: auto !important;
-        top: 80px;
+        top: 0px;
+        left: -16px;
     }
     
     /* General sidebar styles */
@@ -43,8 +44,7 @@
         background: #373a47;
         padding: 2.5em 1.5em 2.5em;
         font-size: 1.15em;
-        height: auto !important;
-        border-radius: 30px;
+        height: 100vh !important;
     }
     
     /* Morph shape necessary with bubble or elastic */
